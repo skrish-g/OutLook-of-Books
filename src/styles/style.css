@@ -8,13 +8,18 @@ section{
 img{
     border-radius: 8px;
 }
+.form_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .card,.book,.details{
     border-radius: 10px;
     height: 300px;
     width: 200px;
 }
 .box{
-    transition: transform 1.5s;
+    transition: transform 1s;
     transform-style: preserve-3d;
 }
 .card{

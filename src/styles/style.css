@@ -4,6 +4,10 @@
 section{
     background-color: rgb(205, 247, 162);
     flex-wrap: wrap;
+    height: unset;
+}
+.allBooks{
+    height: unset;
 }
 img{
     border-radius: 8px;

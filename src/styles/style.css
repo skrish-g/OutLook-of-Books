@@ -49,7 +49,7 @@ img{
     .allBooks{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center; 
     }
     .form_box{
         padding: 10px;

@@ -13,7 +13,7 @@ img{
     justify-content: center;
     width: 100%;
 }
-.card,.book,.details{
+.cardr,.book,.details{
     border-radius: 10px;
     height: 300px;
     width: 200px;
@@ -22,7 +22,7 @@ img{
     transition: transform 1s;
     transform-style: preserve-3d;
 }
-.card{
+.cardr{
     position: relative;
     background-color: transparent;
 }
@@ -38,7 +38,7 @@ img{
     align-items: center;
     transform: rotateY(180deg);
 }
-.card:hover .box{
+.cardr:hover .box{
     transform: rotateY(180deg);
 }
 @media (orientation: portrait){
@@ -47,21 +47,24 @@ img{
         flex-direction: column;
         justify-content: center;
     }
+    .form_box{
+        padding: 10px;
+    }
     .heads{
         text-align: center;
     }
     section{
-        height: 45rem;
+        height: 50rem;
     }
-    .card,.book,.details{
+    .cardr,.book,.details{
         border-radius: 4px;
-        height: 130px;
-        width: 100px;
+        height: 150px;
+        width: 120px;
         font-size: xx-small;
     }
     img{
-        height: 130px;
-        width: 100px;
+        height: 150px;
+        width: 120px;
         border-radius: 5px;
     }
 }
